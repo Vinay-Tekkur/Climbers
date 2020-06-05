@@ -1,0 +1,295 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Bitter', serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 4.5rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+.main-head{
+    min-height: 10vh;
+    background: rgba(128,128,0);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+nav{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+nav h1{
+    flex:1 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+}
+
+nav ul{
+    flex:1 1 40rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero{
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url("./Images/photo-of-hiker-on-top-of-rock-facing-a-lake-2517748.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.hero h2{
+    padding: 2rem;
+    font-weight: normal;
+}
+
+.hero h3{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-weight: normal;
+}
+
+.hero button,#locations button{
+    padding: 1rem 4rem;
+    background: olive;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    color: white;
+    font-family: 'Bitter', serif;
+}
+
+#locations{
+    min-height: 100vh;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url("./Images/man-in-blue-on-top-of-the-mountain-with-areal-view-729940.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#locations h2{
+    padding: 2rem;
+}
+
+#locations h3{
+    padding: 2rem;
+}
+
+.cloud{
+    height: 200px;
+    width: 500px;
+    position: absolute;
+    top:0px;
+    right: 0px;
+}
+
+#preparations{
+    min-height: 80vh;
+}
+
+.prep-head{
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: olive;
+}
+
+.prep-head h2,h3{
+    padding: 1rem;
+}
+
+.cards{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    flex-wrap: wrap;
+}
+
+.card{
+    min-height: 35rem;
+    flex: 1 1 25rem;
+    margin: 1rem 1rem;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1), 0px 20px 20px rgba(0,0,0,0.1);
+}
+
+.card h4{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.card p{
+    text-align: justify;
+    padding: 1rem 2rem;
+    line-height: 1.5;
+    font-size: 1.4rem;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+}
+
+#contact{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),transparent),url("./Images/adventure-cold-daylight-fog-291732.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+
+.form-wrapper{
+    background: rgba(0,0,0,0.5);
+    width: 60%;
+    border-radius: 2rem;
+}
+
+.form-wrapper h1{
+    padding: 1rem;
+}
+
+.name-form, .email-form{
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+.name-form label, .email-form label{
+    padding-right: 4rem;
+}
+
+.form-wrapper button{
+    margin-top: 4rem;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background: olive;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.form-wrapper button:hover{
+    background: rgb(31, 31, 2);
+}
+
+.form-wrapper input{
+    padding: 0.5rem;
+}
+
+footer{
+    background: rgba(160, 160, 22,0.9);
+    min-height: 10vh;
+}
+
+footer ul li img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-head{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-head h1{
+    flex: 1 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.footer-head ul{
+    padding: 2rem;
+    display: flex;
+    flex: 1 1 40rem;
+    list-style: none;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:940px){
+.cloud{
+    z-index: -1;
+}
+
+nav{
+    text-align: center;
+}
+
+nav h1{
+    padding-bottom: 1rem;
+}
+
+a{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.hero h3{
+    font-size: 1.5rem;
+}
+
+.hero h2,#locations h2{
+    font-size: 3rem; 
+}
+
+.form-wrapper{
+    width: 100%;
+}
+
+}
